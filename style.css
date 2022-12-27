@@ -1,0 +1,108 @@
+﻿body {
+    background-color: #e7e9eb;
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    border-radius: 20px;
+    width: 1000px;
+    height: 710px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 600px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .btn-add-new-note {
+    background-color: #04AA6D;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    height: 44px;
+  }
+
+  .list-block {
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    width: 600px;
+    height: 450px;
+    border-radius: 5px;
+  }
+
+  .main-window {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btns-list {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 140px;
+    height: 450px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+  }
+
+  .btns-list-header {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .btn-month {
+    width: 100px;
+    height: 27px;
+    margin-bottom: 5px;
+    background-color: #04AA6D;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+  }
+
+.btn-month:hover {
+  width: 100px;
+  height: 27px;
+  margin-bottom: 5px;
+  background-color: #126d4c;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  color: white;
+}
+
+  .clicked {
+    width: 100px;
+    height: 27px;
+    margin-bottom: 5px;
+    background-color: #7c7c7c;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+  }
